@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-baseURL: "baseURL: "https://task-tracker-xi-jade.vercel.app/api/tasks""
+baseURL: "https://task-tracker-xi-jade.vercel.app/api/tasks"
 });
 
 export default API;
